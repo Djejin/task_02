@@ -183,6 +183,10 @@ input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
     float: left;
     text-align: center;
     opacity: 0.4;
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.4s;
 }
 
 .sp-slider > li img{
